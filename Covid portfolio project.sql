@@ -1,13 +1,6 @@
 --select *
 --from covid_deaths
 
-select*
-from covid_vaccinations
-order by 3,4
-
-ALTER TABLE covid_deaths
-DROP COLUMN population
-
 select* 
 from covid_deaths
 order by 3,4
